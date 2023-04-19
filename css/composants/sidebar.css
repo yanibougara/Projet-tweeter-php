@@ -1,0 +1,54 @@
+.overlay-sidebar {
+    width: 25vw;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 100%;
+    height: 100%;
+    background: var(--background-sidebar);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    padding: 32px;
+}
+
+.sidebar-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.sidebar-profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.menulist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+.menulist:hover {
+    padding-left: 32px;
+    border-left: 5px solid #d24a14;
+}
+
+.menulist > h2,
+.menulist > h3 {
+    font-size: 24px;
+}
