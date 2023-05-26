@@ -1,0 +1,91 @@
+
+*{
+margin: 0;
+padding:0;
+}
+
+
+aside{
+height: 100vw;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 45vw;
+background:linear-gradient(135deg, #58bacd 0%, #68f798 100%);
+position: fixed;
+margin-left: -130px;
+}
+
+
+
+
+.titres{
+    gap: 47px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 67px;
+}
+
+
+
+.tweetuser{
+    display: flex;
+    background: linear-gradient(135deg, #58bacd 0%, #68f7f7 100%);
+    width: 300vh;
+    height: 100vh;
+}
+
+h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.all{
+display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+padding: 0;
+margin: 0;
+background-color: blueviolet;
+}
+
+
+
+.contenu{
+background-color: rgba(7, 240, 22, 0.791);
+display: flex;
+justify-content: center;
+align-items: center;
+width: 30%;
+height: 100%;
+padding: 25px;
+flex-direction: column;
+}
+
+.titre{
+display: flex;
+flex-direction: column;
+}
+
+ */

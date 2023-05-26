@@ -1,0 +1,22 @@
+.none{
+    display: none !important ;
+}
+
+.show{
+    display: flex;
+}
+
+
+.publication {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.publication > img {
+    width: 90%;
+}
+
+.idpost{
+display: hidden;
+}

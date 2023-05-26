@@ -1,0 +1,99 @@
+.tag-all {
+    width: 100%;
+    padding: 12px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.tag-list {
+    display: grid;
+    grid-template-rows: repeat(5, 2fr);
+    grid-template-columns: repeat(2, 2fr);
+    gap: 16px;
+}
+
+.tag-1 {
+    background-color: var(--tag-color-1);
+}
+
+.tag-2 {
+    background-color: var(--tag-color-2);
+}
+
+
+.tag-3 {
+    background-color: var(--tag-color-3);
+}
+
+
+.tag-4 {
+    background-color: var(--tag-color-4);
+}
+
+.tag-5 {
+    background-color: var(--tag-color-5);
+}
+
+.tag-6 {
+    background-color: var(--tag-color-6);
+}
+
+
+.tag-7 {
+    background-color: var(--tag-color-7);
+}
+
+.tag-8 {
+    background-color: var(--tag-color-8);
+}
+
+.tag-9 {
+    background-color: var(--tag-color-9);
+}
+
+.tag-10 {
+    background-color: var(--tag-10);
+}
+
+
+@media screen and (max-width: 768px) {
+  
+    .tag-list{
+   flex-direction: column;
+  display: flex;
+  gap: 0px;
+    }
+    
+    }
+
+
+    .tag-1,
+    .tag-2,
+    .tag-3,
+    .tag-4,
+    .tag-5,
+    .tag-6,
+    .tag-7,
+    .tag-8,
+    .tag-9,
+    .tag-10 {
+      color: rgb(141, 216, 244);
+      animation: colorChange 2s infinite;
+    }
+    
+    @keyframes colorChange {
+      0% {
+        color: rgb(227, 181, 164);
+      }
+      50% {
+        color: rgb(136, 136, 238);
+      }
+      100% {
+        color: rgb(148, 241, 148);
+      }
+   
+    }

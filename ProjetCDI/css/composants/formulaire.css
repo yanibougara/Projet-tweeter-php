@@ -1,0 +1,78 @@
+
+.mybutton{height: 30px;width: 120px;background:linear-gradient(135deg, #58bacd 0%, #68f798 100%);margin-left: 80px;margin-top:10px;border:1px solid gray;border-radius:5px;}
+
+.myModal{display: none;}
+
+.modal-content{background:linear-gradient(135deg, #58bacd 0%, #68f798 100%);
+    height:471px;
+    width: 300px;
+    border:1px solid gray;
+    border-radius:10px;}
+
+
+.fermer{background-color: #fff;border: none;float: right;font-size: 28px;font-weight: bold;}
+
+.label1{color: #fff;}
+
+.text1{ height: 50px;width: 250px;margin-left: 20px;border: 1px solid grey;background-color: #c4b8b8;}
+
+
+.label2{color: #fff;} 
+
+
+.txtarea2{height: 200px;width: 250px;margin-left: 20px;border: 1px solid grey;background-color: #c4b8b8;font-family:IrishGrover;}
+
+
+
+.label3{color: #fff;} 
+
+
+.tag{color: #fff;} 
+
+
+
+.tag2{height: 30px;width: 250px;margin-left: 20px;border: 1px solid grey;background-color: #c4b8b8;}
+  
+
+.abcd {background-color: gray;border-radius: 10px;margin-left: 22px;}
+  
+
+@media screen and (max-width: 768px) {
+  
+    .myModal{
+        margin-left: -296px;
+        display: block;
+        margin-top: -127px;
+        display: none;
+    }
+    
+    .mybutton{
+        margin-left: -4px;
+    }
+    }
+
+    .mybutton {
+        color: red;
+        animation: colorChange 2s infinite;
+      }
+      
+      @keyframes colorChange {
+        0% {
+          color: rgb(214, 71, 19);
+        }
+        100% {
+          color: blue;
+        }
+        100% {
+          color: rgb(13, 223, 13);
+        }
+        100% {
+            color: rgb(191, 81, 238);
+          }
+          100% {
+            color: rgb(248, 228, 14);
+          }
+          100% {
+            color: rgb(108, 240, 187);
+          }
+      }
