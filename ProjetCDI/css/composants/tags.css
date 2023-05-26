@@ -1,0 +1,27 @@
+.tag-all {
+    width: 100%;
+    padding: 12px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.tag-list {
+    display: grid;
+    grid-template-rows: repeat(5, 2fr);
+    grid-template-columns: repeat(2, 2fr);
+    gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  
+    .tag-list{
+   flex-direction: column;
+  display: flex;
+  gap: 0px;
+    }
+    
+    }

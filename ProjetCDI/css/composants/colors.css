@@ -1,0 +1,25 @@
+:root {
+    /* Background des pages */
+    --background-primaire: #0093e9;
+    --background-secondaire: #80d0c7;
+
+    /* Background de la sidebar */
+    --background-sidebar: linear-gradient(135deg, #58bacd 0%, #68f798 100%);
+
+    /* Couleur des textes */
+    --text-black: rgba(0, 0, 0, 0.9);
+    --text-white: rgba(89, 85, 85, 0.9);
+
+    /* Couleurs des tags */
+    --tag-color-0: #6f3525;
+    --tag-color-1: #155f10;
+    --tag-color-2: #1c153d;
+    --tag-color-3: #2b6f25;
+    --tag-color-4: #6f253b;
+    --tag-color-5: #25436f;
+    --tag-color-6: #57256f;
+    --tag-color-7: #6f3725;
+    --tag-color-8: #41256f;
+    --tag-color-9: #6f5f25;
+    --tag-color-10: #256f6b;
+}
